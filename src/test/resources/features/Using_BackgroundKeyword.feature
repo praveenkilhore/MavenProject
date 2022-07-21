@@ -19,7 +19,7 @@ Scenario Outline: Free HRM Search Add new Employee Test Scenario
 
 Examples:
 	| firstname | lastname | user_name | user_password | repassword | status |
-	| Praveen | Kilhore | praveen | test@123 | test@123 | Enabled |
+	| Suny | Kilhore | sunykil | test@123 | test@123 | Enabled |
 
 Scenario: Free HRM Delete UserTest Scenario
 			Given mouse hover Admin Tab

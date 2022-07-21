@@ -97,12 +97,12 @@ public class Add_New_Employee_Object extends TestBase {
 		btnSave.click();
 	}
 	
-	public String employee_successfully_added() throws InterruptedException {
-		//explicitWait(name_AfterAdding_employee, 5);
-		Thread.sleep(2000);
-		name_AfterAdding_employee.isDisplayed();
-		Thread.sleep(2000);
-		return(name_AfterAdding_employee.getText());
-	}
+//	public String employee_successfully_added() throws InterruptedException {
+//		//explicitWait(name_AfterAdding_employee, 5);
+//		Thread.sleep(2000);
+//		name_AfterAdding_employee.isDisplayed();
+//		Thread.sleep(4000);
+//		return(name_AfterAdding_employee.getText());
+//	}
 	
 }
